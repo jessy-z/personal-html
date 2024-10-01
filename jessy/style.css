@@ -53,17 +53,18 @@ h1 {
     position: relative;
     background-color: inherit;
     width: 50%;
+    border: noone;
   }
 
   /* The circles on the timeline */
   .timeline-4::after {
     content: '';
     position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -11px;
+    width: 15px;
+    height: 15px;
+    right: -6px;
     background-color: #bbb;
-    top: 15px;
+    top: 21px;
     border-radius: 50%;
     z-index: 1;
   }
