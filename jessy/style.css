@@ -26,6 +26,11 @@ h1 {
   }
 
 
+  .test{
+    display: flex;
+    justify-content: flex-end;
+  }
+
   /* The actual timeline (the vertical ruler) */
   .main-timeline-4 {
     position: relative;
