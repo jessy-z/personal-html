@@ -191,30 +191,15 @@ b {
   margin: 0 0 2rem 0;
   overflow: hidden;
   position: relative;
-  color: #ffffff;
+  justify-content: center;
+  max-width: 50rem;
 }
 
-.postcard .postcard__img {
-    max-height: 180px;
+.postcard_img {
+    max-height: 220px;
     width: 100%;
     object-fit: cover;
     position: relative;
-}
-
-img {
-  vertical-align: middle;
-  border-style: none;
-}
-
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-  unicode-bidi: isolate;
 }
 
 .postcard .postcard__tagbox {
@@ -234,5 +219,5 @@ ul {
   background: -webkit-linear-gradient(to left, #99BC85, #8EACCD);
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to left, #99BC85, #8EACCD)
+  background: linear-gradient(to left, #99BC85, #8EACCD);
 }
