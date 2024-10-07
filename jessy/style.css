@@ -196,7 +196,7 @@ b {
 }
 
 .postcard_img {
-    max-height: 220px;
+    height: 220px;
     width: 100%;
     object-fit: cover;
     position: relative;
