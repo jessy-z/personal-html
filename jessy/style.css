@@ -1,3 +1,59 @@
+/*nav bar*/
+.nav-home{
+  color: #1F8A70;
+  text-decoration: none;
+}
+
+#mainNav {
+  background-color: #C4DAD2;
+}
+
+.navbar{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.navbar-toggler{
+  font-size: 15px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #449f8a;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.collapse {
+  display: none;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .gradient-background {
   background: linear-gradient(300deg, #79AC78, #739072, #C2DEDC);
   background-size: 180% 180%;
@@ -211,7 +267,7 @@ hr {
 }
 
 .postcard_img {
-    height: 220px;
+    height: 275px;
     width: 100%;
     object-fit: cover;
     position: relative;
