@@ -39,9 +39,6 @@
   cursor: pointer;
 }
 
-.collapse {
-  display: none;
-}
 
 .navbar-collapse {
   -ms-flex-preferred-size: 100%;
@@ -53,6 +50,10 @@
   -ms-flex-align: center;
   align-items: center;
 }
+
+
+
+
 
 .gradient-background {
   background: linear-gradient(300deg, #79AC78, #739072, #C2DEDC);
