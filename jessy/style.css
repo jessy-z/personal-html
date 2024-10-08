@@ -25,6 +25,11 @@ b {
   color: #739072;
 }
 
+.header {
+  font-size: 35px;
+  color:#508D4E;
+}
+
 hr {
   width: 20%;
   margin: auto;
@@ -230,4 +235,12 @@ hr {
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(to left, #99BC85, #8EACCD);
+}
+
+.con-logo{
+  color: #436850;
+}
+
+.con-logo:hover{
+  color: #12372A;
 }
