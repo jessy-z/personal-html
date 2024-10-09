@@ -5,7 +5,7 @@
 }
 
 #mainNav {
-  background-color: #C4DAD2;
+  background-color: #d0e0d9;
 }
 
 .navbar-toggler{
@@ -29,7 +29,31 @@
 .home-background{
   width: 100%;
   height: 45rem;
-  background-color: #C4DAD2;
+  background-color: #d0e0d9;
+}
+
+.home-box1 {
+  height: 25rem;
+  width: 25rem;
+  border: 1px solid white;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: auto;
+  top: 20%;
+}
+
+.home-planet1{
+  background-color: #2a8489;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+}
+
+.home-planet1 .crater {
+  background-color: #14757a;
+  border-radius: 50%;
 }
 
 .gradient-background {
