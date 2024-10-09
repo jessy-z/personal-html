@@ -25,7 +25,12 @@
 }
 
 
-
+/* home */
+.home-background{
+  width: 100%;
+  height: 45rem;
+  background-color: #C4DAD2;
+}
 
 .gradient-background {
   background: linear-gradient(300deg, #79AC78, #739072, #C2DEDC);
