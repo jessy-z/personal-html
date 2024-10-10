@@ -28,8 +28,9 @@
 /* home planet 1*/
 .home-background{
   width: 100%;
-  height: 45rem;
+  height: 55rem;
   background-color: #d0e0d9;
+  overflow: hidden;
 }
 
 .home-box1 {
@@ -324,6 +325,150 @@
   position: absolute;
   top: 0;
   left: -0.68rem;
+}
+
+/* home hills left*/
+.home-box4 {
+  height: 15rem;
+  width: 25rem;
+  border: 1px solid white;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: auto;
+  top: -1.75%;
+  left: -23rem;
+}
+
+.home-box4 .home-hill1{
+  background-color: #b5cba6;
+  height: 17rem;
+  width: 15rem;
+  border-radius: 10rem 10rem 0 0;
+  position: absolute;
+  margin: auto;
+  bottom: -3rem;
+}
+
+.home-box4 .home-hill2{
+  background-color: #A2C579;
+  height: 10rem;
+  width: 20rem;
+  border-radius: 10rem 10rem 0 0;
+  position: absolute;
+  margin: auto;
+  bottom: -3rem;
+  left: 5rem;
+}
+
+.home-box4 .home-hill3{
+  background-color: #D2DE32;
+  height: 10rem;
+  width: 20rem;
+  border-radius: 10rem 10rem 0 0;
+  position: absolute;
+  margin: auto;
+  bottom: -3rem;
+  left: -9rem;
+}
+
+.home-box4 .home-flag1{
+  background-color: white;
+  height: 5rem;
+  width: 0.2rem;
+  position: relative;
+  margin: auto;
+  top: 40%;
+  left: -65%;
+}
+
+.home-box4 .home-flag1:before{
+  content: "";
+  background-color: #DF826C;
+  position: absolute;
+  width: 3rem;
+  height: 0.2rem;
+  left: -3rem;
+  transform: rotate(180deg);
+  border: medium solid #f8ac9b;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent #f8ac9b transparent transparent;
+}
+
+.home-box4 .home-flag1:after{
+  content: "";
+  background-color: #00000025;
+  position: absolute;
+  width: 3rem;
+  height: 0.2rem;
+  top: 4.8rem;
+  left: 0.2rem;
+}
+
+.home-box4 .home-flag2{
+  background-color: white;
+  height: 5rem;
+  width: 0.2rem;
+  position: relative;
+  margin: auto;
+  top: -50%;
+  left: -20%;
+}
+
+.home-box4 .home-flag2:before{
+  content: "";
+  background-color: #DF826C;
+  position: absolute;
+  width: 3rem;
+  height: 0.2rem;
+  left: -3rem;
+  transform: rotate(180deg);
+  border: medium solid #f8ac9b;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent #f8ac9b transparent transparent;
+}
+
+.home-box4 .home-flag2:after{
+  content: "";
+  background-color: #00000025;
+  position: absolute;
+  width: 3rem;
+  height: 0.2rem;
+  top: 4.8rem;
+  left: 0.2rem;
+}
+
+/* home hills right*/
+.home-box5 {
+  height: 15rem;
+  width: 25rem;
+  border: none;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: auto;
+  top: -28%;
+  left: 23rem;
+}
+
+.home-box5 .home-hill1{
+  background-color: #A2C579;
+  height: 23rem;
+  width: 15rem;
+  border-radius: 10rem 10rem 0 0;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  left: 70%;
+}
+
+.home-box5 .home-hill2{
+  background-color: #D2DE32;
+  height: 20rem;
+  width: 15rem;
+  border-radius: 10rem 10rem 0 0;
+  position: absolute;
+  margin: auto;
+  bottom: -3rem;
+  left: 25%;
 }
 
 
