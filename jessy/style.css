@@ -25,7 +25,7 @@
 }
 
 
-/* home */
+/* home planet 1*/
 .home-background{
   width: 100%;
   height: 45rem;
@@ -63,8 +63,8 @@
 .home-planet1 .crater:before{
   content: "";
   position: absolute;
-  height: 2.75rem;
-  width: 2.75rem;
+  height: 2.8rem;
+  width: 2.8rem;
   border-radius: 50%;
   box-shadow: -0.25rem 0 0 0.1rem #105a5e;
   top: 0.1rem;
@@ -85,7 +85,7 @@
 
 .home-planet1 .crater3 {
   top: 9.5rem;
-  left: 18rem;
+  left: 16.5rem;
   transform: scale(1.6)
 }
 
@@ -109,6 +109,18 @@
   position: absolute;
   top: 0;
   left: -2rem;
+}
+
+.greet {
+  position: absolute;
+  top: 9rem;
+  left: -0.5rem;
+  width: 26rem;
+}
+
+.desc {
+  font-size: 1.1rem;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .home-box1 .orbit{
@@ -174,17 +186,147 @@
   left: -0.45rem;
 }
 
-.greet {
-  position: absolute;
-  top: 9rem;
-  left: -0.5rem;
-  width: 26rem;
+
+/* home planet 2*/
+.home-box2 {
+  height: 8rem;
+  width: 8rem;
+  border: none;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: auto;
+  top: -40%;
+  left: 35%;
 }
 
-.desc {
-  font-size: 1.1rem;
-  font-family: "Barlow Condensed", sans-serif;
+.home-planet2{
+  background-color: #FFFFDD;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.1); 
 }
+
+.home-planet2 .crater {
+  background-color: #efefc1;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.home-planet2 .crater:before{
+  content: "";
+  position: absolute;
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+  box-shadow: -0.3rem 0 0 0.05rem #d3d3a8;
+  top: 0.06rem;
+  left: 0.2rem;
+}
+
+.home-planet2 .crater1 {
+  top: 1.5rem;
+  left: 4.5rem;
+  transform: scale(0.9);
+}
+
+.home-planet2 .crater2 {
+  top: 3.5rem;
+  left: 2rem;
+  transform: scale(1.2);
+}
+
+.home-planet2 .crater3 {
+  top: 1.8rem;
+  left: 5rem;
+  transform: scale(0.5)
+}
+
+.home-planet2 .shade {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  box-shadow: 0.7rem 0 0 0 rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 0;
+  left: -0.68rem;
+}
+
+
+/* home planet 3*/
+.home-box3 {
+  height: 8rem;
+  width: 8rem;
+  border: none;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: auto;
+  top: -47%;
+  left: -28%;
+}
+
+.home-planet3{
+  background-color: #efd9aa;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.1); 
+}
+
+.home-planet3 .crater {
+  background-color: #e0c690;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.home-planet3 .crater:before{
+  content: "";
+  position: absolute;
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+  box-shadow: -0.3rem 0 0 0.05rem #c6ae7d;
+  top: 0.06rem;
+  left: 0.2rem;
+}
+
+.home-planet3 .crater1 {
+  top: 1.5rem;
+  left: 4.5rem;
+  transform: scale(0.9);
+}
+
+.home-planet3 .crater2 {
+  top: 3.5rem;
+  left: 2rem;
+  transform: scale(1.2);
+}
+
+.home-planet3 .crater3 {
+  top: 1.8rem;
+  left: 5rem;
+  transform: scale(0.5)
+}
+
+.home-planet3 .shade {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  box-shadow: 0.7rem 0 0 0 rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 0;
+  left: -0.68rem;
+}
+
+
 
 h1 {
   font-family: "Bad Script", cursive;
