@@ -1,11 +1,18 @@
 /*nav bar*/
+#mainNav {
+  background-color: #d0e0d9;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
 .nav-home{
-  color: #1F8A70;
+  color: #105a5e;
   text-decoration: none;
 }
 
-#mainNav {
-  background-color: #d0e0d9;
+.nav-link {
+  color: #15767b !important;
 }
 
 .navbar-toggler{
@@ -15,8 +22,7 @@
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #449f8a;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #339094;
 }
 
 .navbar-collapse {
@@ -196,8 +202,8 @@
   position: relative;
   padding: 0 0 0 0;
   margin: auto;
-  top: -40%;
-  left: 35%;
+  top: -25%;
+  left: 25%;
 }
 
 .home-planet2{
@@ -331,12 +337,12 @@
 .home-box4 {
   height: 15rem;
   width: 25rem;
-  border: 1px solid white;
+  border: none;
   position: relative;
   padding: 0 0 0 0;
   margin: auto;
   top: -1.75%;
-  left: -23rem;
+  left: -15%;
 }
 
 .home-box4 .home-hill1{
@@ -470,6 +476,76 @@
   bottom: -3rem;
   left: 25%;
 }
+
+.home-box5 .home-flag1{
+  background-color: white;
+  height: 8rem;
+  width: 0.2rem;
+  position: relative;
+  margin: auto;
+  top: -95%;
+  left: 45%;
+}
+
+.home-box5 .home-flag1:before{
+  content: "";
+  background-color: #DF826C;
+  position: absolute;
+  width: 3rem;
+  height: 0.2rem;
+  left: -3rem;
+  transform: rotate(180deg);
+  border: medium solid #f8ac9b;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent #f8ac9b transparent transparent;
+}
+
+.home-box5 .home-flag1:after{
+  content: "";
+  background-color: #00000025;
+  position: absolute;
+  width: 4.5rem;
+  height: 0.2rem;
+  top: 7.8rem;
+  left: 0.2rem;
+}
+
+.home-box5 .home-sheep1 .body{
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -20%;
+  left: 55%;
+}
+
+.home-box5 .home-sheep1 .body:before{
+  content:"";
+  position: absolute;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: white;
+  border-radius: 50%;
+  top: -15%;
+  left: 32.5%;
+  box-shadow: 0 1.7rem white, 
+              0.85rem 0.85rem white, 
+              -0.85rem 0.85rem white, 
+
+              0.43rem 0.12rem white,
+              0.70rem 0.35rem white, 
+              0.43rem 1.55rem white,
+              0.70rem 1.230rem white,
+
+              -0.43rem 0.12rem white,
+              -0.70rem 0.35rem white, 
+              -0.43rem 1.55rem white,
+              -0.70rem 1.230rem white;
+}
+
+
+
 
 
 
