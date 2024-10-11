@@ -544,10 +544,54 @@
               -0.70rem 1.230rem white;
 }
 
+.home-box5 .home-sheep1 .face{
+  height: 1rem;
+  width: 0.75rem;
+  background-color: #333;
+  border-radius: 40%;
+  position: absolute;
+  top: -18%;
+  left: 57.5%;
+}
 
+.home-box5 .home-sheep1 .face:before{
+  content:"";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #333;
+  border-radius: 0.4rem 0;
+  left: -35%;
+}
 
+.home-box5 .home-sheep1 .face:after{
+  content:"";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #333;
+  border-radius: 0 0.4rem;
+  left: 75%;
+}
 
+.home-box5 .home-sheep1 .legs{
+  height: 0.75rem;
+  width: 0.20rem;
+  background-color: #333;
+  position: absolute;
+  top: -10%;
+  left: 61%;
+}
 
+.home-box5 .home-sheep1 .legs:before{
+  content:"";
+  position: absolute;
+  height: 0.8rem;
+  width: 0.20rem;
+  background-color: #333;
+  top: -10%;
+  left: -500%;
+}
 
 h1 {
   font-family: "Bad Script", cursive;
