@@ -593,6 +593,115 @@
   left: -500%;
 }
 
+.home-box5 .home-sheep1 .shadow{
+  height: 3rem;
+  width: 0.5rem;
+  background-color: #00000050;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(90deg);
+  top: -15%;
+  left: 60%;
+}
+
+.home-box5 .home-sheep2 .body{
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -20%;
+  left: 42%;
+}
+
+.home-box5 .home-sheep2 .body:before{
+  content:"";
+  position: absolute;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: white;
+  border-radius: 50%;
+  top: -15%;
+  left: 32.5%;
+  box-shadow: 0 1.7rem white, 
+              0.85rem 0.85rem white, 
+              -0.85rem 0.85rem white, 
+
+              0.43rem 0.12rem white,
+              0.70rem 0.35rem white, 
+              0.43rem 1.55rem white,
+              0.70rem 1.230rem white,
+
+              -0.43rem 0.12rem white,
+              -0.70rem 0.35rem white, 
+              -0.43rem 1.55rem white,
+              -0.70rem 1.230rem white;
+}
+
+.home-box5 .home-sheep2 .face{
+  height: 1rem;
+  width: 0.75rem;
+  background-color: #333;
+  border-radius: 40%;
+  position: absolute;
+  top: -18%;
+  left: 44.5%;
+}
+
+.home-box5 .home-sheep2 .face:before{
+  content:"";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #333;
+  border-radius: 0.4rem 0;
+  left: -35%;
+}
+
+.home-box5 .home-sheep2 .face:after{
+  content:"";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #333;
+  border-radius: 0 0.4rem;
+  left: 75%;
+}
+
+.home-box5 .home-sheep2 .legs{
+  height: 0.75rem;
+  width: 0.20rem;
+  background-color: #333;
+  position: absolute;
+  top: -10%;
+  left: 48%;
+}
+
+.home-box5 .home-sheep2 .legs:before{
+  content:"";
+  position: absolute;
+  height: 0.8rem;
+  width: 0.20rem;
+  background-color: #333;
+  top: -10%;
+  left: -500%;
+}
+
+.home-box5 .home-sheep2 .shadow{
+  height: 3rem;
+  width: 0.5rem;
+  background-color: #00000050;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(90deg);
+  top: -15%;
+  left: 47%;
+}
+
+
+
+
+
 h1 {
   font-family: "Bad Script", cursive;
   font-weight: 400;
