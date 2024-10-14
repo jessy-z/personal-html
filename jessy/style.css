@@ -139,10 +139,10 @@
   margin: auto;
   top: -4rem;
   left: -4rem;
-  animation: spin 15s infinite linear
+  animation: spin-r 15s infinite linear
 }
 
-@keyframes spin {
+@keyframes spin-r {
   100% {
     transform: rotate(360deg);
   }
@@ -214,6 +214,8 @@
   position: absolute;
   margin: auto;
   box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.1); 
+  transform-style: preserve-3d;
+  z-index: 2;
 }
 
 .home-planet2 .crater {
@@ -263,6 +265,39 @@
   left: -0.68rem;
 }
 
+.home-box2 .sat {
+  background-color: #89b6b7;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  left: -5rem;
+  bottom: -7rem;
+  animation: spin-sat1 5s infinite;
+  transform-style: preserve-3d;
+  z-index: 3;
+}
+
+@keyframes spin-sat1{
+  49% {
+    left: 5rem;
+    bottom: 1rem;
+    transform-style: preserve-3d;
+    z-index: 3;
+  }
+
+  50% {
+    transform-style: translateZ(-1px);
+    z-index: 1;
+  }
+
+  100% {    
+    transform: translateZ(-1px);
+    z-index: 1;
+  }
+
+}
 
 /* home planet 3*/
 .home-box3 {
