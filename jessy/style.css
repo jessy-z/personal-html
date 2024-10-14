@@ -274,7 +274,7 @@
   margin: auto;
   left: -5rem;
   bottom: -7rem;
-  animation: spin-sat1 5s infinite;
+  animation: spin-sat1 8s infinite;
   transform-style: preserve-3d;
   z-index: 3;
 }
@@ -319,6 +319,8 @@
   position: absolute;
   margin: auto;
   box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.1); 
+  transform-style: preserve-3d;
+  z-index: 2;
 }
 
 .home-planet3 .crater {
@@ -342,21 +344,28 @@
 
 .home-planet3 .crater1 {
   top: 1.5rem;
-  left: 4.5rem;
-  transform: scale(0.9);
+  left: 4rem;
+  transform: scale(0.5);
 }
 
 .home-planet3 .crater2 {
-  top: 3.5rem;
+  top: 0.8rem;
   left: 2rem;
-  transform: scale(1.2);
+  transform: scale(1);
 }
 
 .home-planet3 .crater3 {
   top: 1.8rem;
-  left: 5rem;
-  transform: scale(0.5)
+  left: 1rem;
+  transform: scale(0.4)
 }
+
+.home-planet3 .crater4 {
+  top: 1rem;
+  left: 4rem;
+  transform: scale(0.8)
+}
+
 
 .home-planet3 .shade {
   height: 8rem;
@@ -366,6 +375,40 @@
   position: absolute;
   top: 0;
   left: -0.68rem;
+}
+
+.home-box3 .sat {
+  background-color: white;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  left: 6rem;
+  bottom: -3.5rem;
+  animation: spin-sat2 4s infinite;
+  transform-style: preserve-3d;
+  z-index: 3;
+}
+
+@keyframes spin-sat2{
+  49% {
+    left: -6rem;
+    bottom: -3.5rem;
+    transform-style: preserve-3d;
+    z-index: 3;
+  }
+
+  50% {
+    transform-style: translateZ(-1px);
+    z-index: 1;
+  }
+
+  100% {    
+    transform: translateZ(-1px);
+    z-index: 1;
+  }
+
 }
 
 /* home hills left*/
