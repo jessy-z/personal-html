@@ -871,40 +871,17 @@
 }
 
 
-
-
-
+/* General */
 h1 {
   font-family: "Bad Script", cursive;
   font-weight: 400;
 }
 
-.gradient-background {
-  background: linear-gradient(300deg, #79AC78, #739072, #C2DEDC);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
-}
-
-
-
-
-.profile {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-}
-
-.bio_profile_pic {
-  border-radius: 40px 10px;
-}
-
-b {
-  color: #739072;
-}
-
 .header {
-  font-size: 35px;
-  color:#508D4E;
+  font-size: 35px !important; 
+  color:#339094 !important; 
+  font-family: "Barlow Condensed", sans-serif !important;
+  font-weight: 400 !important;
 }
 
 hr {
@@ -916,6 +893,51 @@ hr {
   color: #333;  /* old IE */
   background-color: #333;  /* Modern Browsers */
 }
+
+p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+/* About/Bio */
+
+.profile {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.profile_pic {
+  border-radius: 20% 20% 20% 20%;
+}
+
+
+/* My Path*/
+#timeline {
+  background-color: #d3dad7;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #79AC78, #739072, #C2DEDC);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+b {
+  color: #739072;
+}
+
+h6{
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+
+
 
 
 /* The actual timeline (the vertical ruler) */
