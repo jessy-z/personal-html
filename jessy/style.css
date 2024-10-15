@@ -3,7 +3,7 @@
   background-color: #d0e0d9;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 22px;
 }
 
 .nav-home{
@@ -871,6 +871,23 @@
   left: 47%;
 }
 
+@media (max-width: 1000px) {
+  .home-box4{
+    display: none;
+  }
+
+  .home-box2{
+    display: none;
+  }
+
+  .home-box5{
+    display: none;
+  }
+
+  .home-background{
+    height: 850px;
+  }
+}
 
 /* --------------------- General --------------------- */
 h1 {
@@ -879,7 +896,7 @@ h1 {
 }
 
 .header {
-  font-size: 35px !important; 
+  font-size: 30px !important; 
   color:#339094 !important; 
   font-family: "Barlow Condensed", sans-serif !important;
   font-weight: 400 !important;
@@ -897,7 +914,7 @@ hr {
 
 p {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -932,7 +949,7 @@ b {
 
 h6{
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
 }
 
@@ -1101,10 +1118,11 @@ h6{
 
 h5{
   font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
 }
 
 .p-sub {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .postcard {
@@ -1129,7 +1147,6 @@ h5{
 .postcard .postcard__tagbox {
   display: flex;
   flex-flow: row wrap;
-  font-size: 14px;
   margin: 20px 0 0 0;
   padding: 0;
   justify-content: center;
@@ -1146,23 +1163,41 @@ h5{
   background: linear-gradient(to left, #99BC85, #8EACCD);
 }
 
-.con-logo{
-  color: #436850;
-}
-
-.con-logo:hover{
-  color: #12372A;
-}
-
 .btn {
   font-family: "Barlow Condensed", sans-serif;
 }
 
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+@media (max-width: 1000px) {
+  .pb-lg{
+    display: none;
+  }
+}
+
+@media (min-width: 1001px) {
+  .pb-sm{
+    display: none;
+  }
+}
+
 /* --------------------- contact/footer --------------------- */
+
 #contact {
   background-color: #d0e0d9;
 }
 
 .copyright{
   font-size: 15px;
+}
+
+.con-logo{
+  color: #339094;
+}
+
+.con-logo:hover{
+  color: #15767b;
 }
