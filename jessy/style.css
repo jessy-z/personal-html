@@ -1158,12 +1158,11 @@ h5{
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* --------------------- footer --------------------- */
-
-#footer {
+/* --------------------- contact/footer --------------------- */
+#contact {
   background-color: #d0e0d9;
 }
 
-#footer p {
+.copyright{
   font-size: 15px;
 }
