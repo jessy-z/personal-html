@@ -625,7 +625,7 @@
   padding: 0 0 0 0;
   margin: auto;
   top: -28%;
-  left: 23rem;
+  left: 21rem;
 }
 
 .home-box5 .home-hill1{
@@ -886,6 +886,16 @@
 
   .home-background{
     height: 850px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .home-box5 {
+    left: 16rem;
+  }
+
+  .home-box2 {
+    left: 40%;
   }
 }
 
