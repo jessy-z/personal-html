@@ -1,18 +1,1222 @@
-.gradient-background {
-    background: linear-gradient(300deg, #79AC78, #739072, #C2DEDC);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+/* --------------------- nav bar --------------------- */
+#mainNav {
+  background-color: #d0e0d9;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.nav-home{
+  color: #105a5e;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #15767b !important;
+}
+
+.navbar-toggler{
+  font-size: 15px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #339094;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end; 
+}
+
+
+/* --------------------- home --------------------- */
+.home-background{
+  width: 100%;
+  height: 55rem;
+  background-color: #d0e0d9;
+  overflow: hidden;
+}
+
+/* home planet 1*/
+.home-box1 {
+  height: 25rem;
+  width: 25rem;
+  border: none;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: auto;
+  top: 20%;
+}
+
+.home-planet1{
+  background-color: #339094;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0,0,0,0.15); 
+}
+
+.home-planet1 .crater {
+  background-color: #15767b;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.home-planet1 .crater:before{
+  content: "";
+  position: absolute;
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50%;
+  box-shadow: -0.25rem 0 0 0.1rem #105a5e;
+  top: 0.1rem;
+  left: 0.3rem;
+}
+
+.home-planet1 .crater1 {
+  top: 3rem;
+  left: 8rem;
+  transform: scale(0.9);
+}
+
+.home-planet1 .crater2 {
+  top: 3.5rem;
+  left: 3.5rem;
+  transform: scale(1.2);
+}
+
+.home-planet1 .crater3 {
+  top: 9.5rem;
+  left: 16.5rem;
+  transform: scale(1.6)
+}
+
+.home-planet1 .crater4 {
+  top: 11rem;
+  left: 7rem;
+  transform: scale(0.7);
+}
+
+.home-planet1 .crater5 {
+  top: 5rem;
+  left: 6rem;
+  transform: scale(0.5);
+}
+
+.home-planet1 .shade {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  box-shadow: 2rem 0 0 0 rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 0;
+  left: -2rem;
+}
+
+.greet {
+  position: absolute;
+  top: 9rem;
+  left: -0.5rem;
+  width: 26rem;
+}
+
+.desc {
+  font-size: 1.1rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.home-box1 .orbit{
+  height: 33rem;
+  width: 33rem;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  margin: auto;
+  top: -4rem;
+  left: -4rem;
+  animation: spin-r 15s infinite linear
+}
+
+@keyframes spin-r {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rocket {
+  background-color: white;
+  height: 4rem;
+  width: 2rem;
+  border-radius: 50% 50% 0 0;
+  position: relative;
+  top: 14.5rem;
+  left: -1rem;
+  transform-style: preserve-3d;
+}
+
+.orbit .rocket:before{
+  position: absolute;
+  content: "";
+  background-color: #FFD365;
+  height: 1.7rem;
+  width: 4rem;
+  border-radius: 50% 50% 0 0; 
+  transform: translateZ(-1px);
+  bottom: 0;
+  left: -50%;
+}
+
+.orbit .rocket:after{
+  position: absolute;
+  content: "";
+  background-color: #FFD365;
+  height: 0.6rem;
+  width: 1.25rem;
+  border-radius: 0 0 1.2rem 1.2rem; 
+  bottom: -0.6rem;
+  left: 0.35rem;
+}
+
+.orbit .window {
+  background-color: #DF826C;
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.2rem #B2533E;
+  position: relative;
+  top: 11.5rem;
+  left: -0.45rem;
+}
+
+
+/* home planet 2*/
+.home-box2 {
+  height: 8rem;
+  width: 8rem;
+  border: none;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: auto;
+  top: -25%;
+  left: 25%;
+}
+
+.home-planet2{
+  background-color: #FFFFDD;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.1); 
+  transform-style: preserve-3d;
+  z-index: 2;
+}
+
+.home-planet2 .crater {
+  background-color: #efefc1;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.home-planet2 .crater:before{
+  content: "";
+  position: absolute;
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+  box-shadow: -0.3rem 0 0 0.05rem #d3d3a8;
+  top: 0.06rem;
+  left: 0.2rem;
+}
+
+.home-planet2 .crater1 {
+  top: 1.5rem;
+  left: 4.5rem;
+  transform: scale(0.9);
+}
+
+.home-planet2 .crater2 {
+  top: 3.5rem;
+  left: 2rem;
+  transform: scale(1.2);
+}
+
+.home-planet2 .crater3 {
+  top: 1.8rem;
+  left: 5rem;
+  transform: scale(0.5)
+}
+
+.home-planet2 .shade {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  box-shadow: 0.7rem 0 0 0 rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 0;
+  left: -0.68rem;
+}
+
+.home-box2 .sat {
+  background-color: #89b6b7;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  left: -5rem;
+  bottom: -7rem;
+  animation: spin-sat1 8s infinite;
+  transform-style: preserve-3d;
+  z-index: 3;
+}
+
+@keyframes spin-sat1{
+  49% {
+    left: 5rem;
+    bottom: 1rem;
+    transform-style: preserve-3d;
+    z-index: 3;
   }
 
+  50% {
+    transform-style: translateZ(-1px);
+    z-index: 1;
+  }
 
+  100% {    
+    transform: translateZ(-1px);
+    z-index: 1;
+  }
+
+}
+
+/* home planet 3*/
+.home-box3 {
+  height: 8rem;
+  width: 8rem;
+  border: none;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: auto;
+  top: -47%;
+  left: -28%;
+}
+
+.home-planet3{
+  background-color: #efd9aa;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.1); 
+  transform-style: preserve-3d;
+  z-index: 2;
+}
+
+.home-planet3 .crater {
+  background-color: #e0c690;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.home-planet3 .crater:before{
+  content: "";
+  position: absolute;
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+  box-shadow: -0.3rem 0 0 0.05rem #c6ae7d;
+  top: 0.06rem;
+  left: 0.2rem;
+}
+
+.home-planet3 .crater1 {
+  top: 1.5rem;
+  left: 4rem;
+  transform: scale(0.5);
+}
+
+.home-planet3 .crater2 {
+  top: 0.8rem;
+  left: 2rem;
+  transform: scale(1);
+}
+
+.home-planet3 .crater3 {
+  top: 1.8rem;
+  left: 1rem;
+  transform: scale(0.4)
+}
+
+.home-planet3 .crater4 {
+  top: 1rem;
+  left: 4rem;
+  transform: scale(0.8)
+}
+
+
+.home-planet3 .shade {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  box-shadow: 0.7rem 0 0 0 rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 0;
+  left: -0.68rem;
+}
+
+.home-box3 .sat {
+  background-color: white;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  left: 6rem;
+  bottom: -3.5rem;
+  animation: spin-sat2 4s infinite;
+  transform-style: preserve-3d;
+  z-index: 3;
+}
+
+@keyframes spin-sat2{
+  49% {
+    left: -6rem;
+    bottom: -3.5rem;
+    transform-style: preserve-3d;
+    z-index: 3;
+  }
+
+  50% {
+    transform-style: translateZ(-1px);
+    z-index: 1;
+  }
+
+  100% {    
+    transform: translateZ(-1px);
+    z-index: 1;
+  }
+
+}
+
+/* home hills left*/
+.home-box4 {
+  height: 15rem;
+  width: 25rem;
+  border: none;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: auto;
+  top: -1.75%;
+  left: -15%;
+}
+
+.home-box4 .home-hill1{
+  background-color: #b5cba6;
+  height: 17rem;
+  width: 15rem;
+  border-radius: 10rem 10rem 0 0;
+  position: absolute;
+  margin: auto;
+  bottom: -3rem;
+}
+
+.home-box4 .home-hill2{
+  background-color: #A2C579;
+  height: 10rem;
+  width: 20rem;
+  border-radius: 10rem 10rem 0 0;
+  position: absolute;
+  margin: auto;
+  bottom: -3rem;
+  left: 5rem;
+}
+
+.home-box4 .home-hill3{
+  background-color: #D2DE32;
+  height: 10rem;
+  width: 20rem;
+  border-radius: 10rem 10rem 0 0;
+  position: absolute;
+  margin: auto;
+  bottom: -3rem;
+  left: -9rem;
+}
+
+.home-box4 .home-flag1{
+  background-color: white;
+  height: 5rem;
+  width: 0.2rem;
+  position: relative;
+  margin: auto;
+  top: 40%;
+  left: -65%;
+}
+
+.home-box4 .home-flag1:before{
+  content: "";
+  background-color: #DF826C;
+  position: absolute;
+  width: 3rem;
+  height: 0.2rem;
+  left: -3rem;
+  transform: rotate(180deg);
+  border: medium solid #f8ac9b;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent #f8ac9b transparent transparent;
+}
+
+.home-box4 .home-flag1:after{
+  content: "";
+  background-color: #00000025;
+  position: absolute;
+  width: 3rem;
+  height: 0.2rem;
+  top: 4.8rem;
+  left: 0.2rem;
+}
+
+.home-box4 .home-flag2{
+  background-color: white;
+  height: 5rem;
+  width: 0.2rem;
+  position: relative;
+  margin: auto;
+  top: -50%;
+  left: -20%;
+}
+
+.home-box4 .home-flag2:before{
+  content: "";
+  background-color: #DF826C;
+  position: absolute;
+  width: 3rem;
+  height: 0.2rem;
+  left: -3rem;
+  transform: rotate(180deg);
+  border: medium solid #f8ac9b;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent #f8ac9b transparent transparent;
+}
+
+.home-box4 .home-flag2:after{
+  content: "";
+  background-color: #00000025;
+  position: absolute;
+  width: 3rem;
+  height: 0.2rem;
+  top: 4.8rem;
+  left: 0.2rem;
+}
+
+.home-box4 .home-sheep1 .body{
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+}
+
+.home-box4 .home-sheep1 .body:before{
+  content:"";
+  position: absolute;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: white;
+  border-radius: 50%;
+  top: -15%;
+  left: 32.5%;
+  box-shadow: 0 1.7rem white, 
+              0.85rem 0.85rem white, 
+              -0.85rem 0.85rem white, 
+
+              0.43rem 0.12rem white,
+              0.70rem 0.35rem white, 
+              0.43rem 1.55rem white,
+              0.70rem 1.230rem white,
+
+              -0.43rem 0.12rem white,
+              -0.70rem 0.35rem white, 
+              -0.43rem 1.55rem white,
+              -0.70rem 1.230rem white;
+}
+
+.home-box4 .home-sheep1 .face{
+  height: 1rem;
+  width: 0.75rem;
+  background-color: #333;
+  border-radius: 40%;
+  position: absolute;
+  top: 51%;
+  left: 57.5%;
+}
+
+.home-box4 .home-sheep1 .face:before{
+  content:"";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #333;
+  border-radius: 0.4rem 0;
+  left: -35%;
+}
+
+.home-box4 .home-sheep1 .face:after{
+  content:"";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #333;
+  border-radius: 0 0.4rem;
+  left: 75%;
+}
+
+.home-box4 .home-sheep1 .legs{
+  height: 0.75rem;
+  width: 0.20rem;
+  background-color: #333;
+  position: absolute;
+  top: 60%;
+  left: 61%;
+}
+
+.home-box4 .home-sheep1 .legs:before{
+  content:"";
+  position: absolute;
+  height: 0.8rem;
+  width: 0.20rem;
+  background-color: #333;
+  top: -5%;
+  left: -500%;
+}
+
+.home-box4 .home-sheep1 .shadow{
+  height: 3rem;
+  width: 0.5rem;
+  background-color: #00000050;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 55%;
+  left: 60%;
+}
+
+/* home hills right*/
+.home-box5 {
+  height: 15rem;
+  width: 25rem;
+  border: none;
+  position: relative;
+  padding: 0 0 0 0;
+  margin: auto;
+  top: -28%;
+  left: 23rem;
+}
+
+.home-box5 .home-hill1{
+  background-color: #A2C579;
+  height: 23rem;
+  width: 15rem;
+  border-radius: 10rem 10rem 0 0;
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  left: 70%;
+}
+
+.home-box5 .home-hill2{
+  background-color: #D2DE32;
+  height: 20rem;
+  width: 15rem;
+  border-radius: 10rem 10rem 0 0;
+  position: absolute;
+  margin: auto;
+  bottom: -3rem;
+  left: 25%;
+}
+
+.home-box5 .home-flag1{
+  background-color: white;
+  height: 8rem;
+  width: 0.2rem;
+  position: relative;
+  margin: auto;
+  top: -95%;
+  left: 45%;
+}
+
+.home-box5 .home-flag1:before{
+  content: "";
+  background-color: #DF826C;
+  position: absolute;
+  width: 3rem;
+  height: 0.2rem;
+  left: -3rem;
+  transform: rotate(180deg);
+  border: medium solid #f8ac9b;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent #f8ac9b transparent transparent;
+}
+
+.home-box5 .home-flag1:after{
+  content: "";
+  background-color: #00000025;
+  position: absolute;
+  width: 4.5rem;
+  height: 0.2rem;
+  top: 7.8rem;
+  left: 0.2rem;
+}
+
+.home-box5 .home-sheep1 .body{
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -20%;
+  left: 55%;
+}
+
+.home-box5 .home-sheep1 .body:before{
+  content:"";
+  position: absolute;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: white;
+  border-radius: 50%;
+  top: -15%;
+  left: 32.5%;
+  box-shadow: 0 1.7rem white, 
+              0.85rem 0.85rem white, 
+              -0.85rem 0.85rem white, 
+
+              0.43rem 0.12rem white,
+              0.70rem 0.35rem white, 
+              0.43rem 1.55rem white,
+              0.70rem 1.230rem white,
+
+              -0.43rem 0.12rem white,
+              -0.70rem 0.35rem white, 
+              -0.43rem 1.55rem white,
+              -0.70rem 1.230rem white;
+}
+
+.home-box5 .home-sheep1 .face{
+  height: 1rem;
+  width: 0.75rem;
+  background-color: #333;
+  border-radius: 40%;
+  position: absolute;
+  top: -18%;
+  left: 57.5%;
+}
+
+.home-box5 .home-sheep1 .face:before{
+  content:"";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #333;
+  border-radius: 0.4rem 0;
+  left: -35%;
+}
+
+.home-box5 .home-sheep1 .face:after{
+  content:"";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #333;
+  border-radius: 0 0.4rem;
+  left: 75%;
+}
+
+.home-box5 .home-sheep1 .legs{
+  height: 0.75rem;
+  width: 0.20rem;
+  background-color: #333;
+  position: absolute;
+  top: -10%;
+  left: 61%;
+}
+
+.home-box5 .home-sheep1 .legs:before{
+  content:"";
+  position: absolute;
+  height: 0.8rem;
+  width: 0.20rem;
+  background-color: #333;
+  top: -10%;
+  left: -500%;
+}
+
+.home-box5 .home-sheep1 .shadow{
+  height: 3rem;
+  width: 0.5rem;
+  background-color: #00000050;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(90deg);
+  top: -15%;
+  left: 60%;
+}
+
+.home-box5 .home-sheep2 .body{
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -20%;
+  left: 42%;
+}
+
+.home-box5 .home-sheep2 .body:before{
+  content:"";
+  position: absolute;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: white;
+  border-radius: 50%;
+  top: -15%;
+  left: 32.5%;
+  box-shadow: 0 1.7rem white, 
+              0.85rem 0.85rem white, 
+              -0.85rem 0.85rem white, 
+
+              0.43rem 0.12rem white,
+              0.70rem 0.35rem white, 
+              0.43rem 1.55rem white,
+              0.70rem 1.230rem white,
+
+              -0.43rem 0.12rem white,
+              -0.70rem 0.35rem white, 
+              -0.43rem 1.55rem white,
+              -0.70rem 1.230rem white;
+}
+
+.home-box5 .home-sheep2 .face{
+  height: 1rem;
+  width: 0.75rem;
+  background-color: #333;
+  border-radius: 40%;
+  position: absolute;
+  top: -18%;
+  left: 44.5%;
+}
+
+.home-box5 .home-sheep2 .face:before{
+  content:"";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #333;
+  border-radius: 0.4rem 0;
+  left: -35%;
+}
+
+.home-box5 .home-sheep2 .face:after{
+  content:"";
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #333;
+  border-radius: 0 0.4rem;
+  left: 75%;
+}
+
+.home-box5 .home-sheep2 .legs{
+  height: 0.75rem;
+  width: 0.20rem;
+  background-color: #333;
+  position: absolute;
+  top: -10%;
+  left: 48%;
+}
+
+.home-box5 .home-sheep2 .legs:before{
+  content:"";
+  position: absolute;
+  height: 0.8rem;
+  width: 0.20rem;
+  background-color: #333;
+  top: -10%;
+  left: -500%;
+}
+
+.home-box5 .home-sheep2 .shadow{
+  height: 3rem;
+  width: 0.5rem;
+  background-color: #00000050;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(90deg);
+  top: -15%;
+  left: 47%;
+}
+
+@media (max-width: 1000px) {
+  .home-box4{
+    display: none;
+  }
+
+  .home-box2{
+    display: none;
+  }
+
+  .home-box5{
+    display: none;
+  }
+
+  .home-background{
+    height: 850px;
+  }
+}
+
+/* --------------------- General --------------------- */
 h1 {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+}
+
+.header {
+  font-size: 30px !important; 
+  color:#339094 !important; 
+  font-family: "Barlow Condensed", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+hr {
+  width: 10rem;
+  margin: auto;
+  border: none;
+  height: 2px;
+  /* Set the hr color */
+  color: #333;  /* old IE */
+  background-color: #333;  /* Modern Browsers */
+}
+
+p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+/* --------------------- About/Bio --------------------- */
 
 .profile {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.profile_pic {
+  border-radius: 20% 20% 20% 20%;
+}
+
+
+/* --------------------- My Path ---------------------*/
+#timeline {
+  background-color: white;
+}
+
+b {
+  color: #739072;
+}
+
+h6{
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-4 {
+  position: relative;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-4::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: #bbb;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.timeline-4 {
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  /*border: black;*/
+}
+
+/* The circles on the timeline for left side elements */
+.timeline-4::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: -6px;
+  background-color: #bbb;
+  top: 21px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Fix the circle for right side elements */
+.right-4::after {
+  left: -9px;
+}
+
+/* Place the container to the left */
+.left-4 {
+  padding: 0px 40px 20px 0px;
+  left: 0;
+}
+
+/* Place the container to the right */
+.right-4 {
+  padding: 0px 0px 20px 40px;
+  left: 50%;
+}
+
+.end-box {
+  padding: 0px 0px 0px 40px;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left-4::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #80AF81;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #80AF81;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right-4::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #067c83;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #067c83 transparent transparent;
+}
+
+.event-date-left{
+  position:absolute;
+  left: 52%;
+  color: #80AF81;
+}
+
+.event-date-right{
+  position:absolute;
+  right: 52%;
+  color: #067c83;
+}
+
+.event-date-inside {
+  color: white;
+}
+
+@media (min-width: 1001px) {
+  .event-date-inside{
+    display: none;
   }
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #508D4E;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #447c42, #80AF81);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #447c42, #80AF81)
+}
+
+.gradient-custom-4 {
+  /* fallback for old browsers */
+  background: #016A70;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to left, #145b7b, #067c83);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #145b7b, #067c83)
+}
+
+/* Media queries - Responsive timeline on screens less than 100px wide */
+@media screen and (max-width: 1000px) {
+
+  /*Center Timeline*/
+  .main-timeline-4 {
+    margin-left: 17%;
+  }
+
+  /* Align left timeline cards*/
+  .left-4 {
+    justify-content: start !important;
+  }
+  
+  /* Hide event date outside timeline card*/
+  .event-date-left, .event-date-right{
+    display: none;
+  }
+
+  /* Place the timelime to the left */
+  .main-timeline-4::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .timeline-4 {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .left-4::before {
+    border: medium solid #447c42;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #447c42 transparent transparent;
+    justify-self: start;
+    left: 60px !important;
+  }
+
+  .right-4::before {
+    left: 60px;
+  }
+  
+
+  /* Make sure all circles are at the same spot */
+  .left-4::after,
+  .right-4::after {
+    left: 2px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right-4 {
+    left: 0%;
+  }
+}
+/* --------------------- publications --------------------- */
+
+#publications {
+  background-color: #333;
+}
+
+h5{
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+}
+
+.p-sub {
+  font-size: 18px;
+}
+
+.postcard {
+  flex-wrap: wrap;
+  display: flex;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  max-width: 50rem;
+}
+
+.postcard_img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.postcard .postcard__tagbox {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px 0 0 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.gradient-custom-postcard {
+  /* fallback for old browsers */
+  background: #BFD8AF;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to left, #99BC85, #8EACCD);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #99BC85, #8EACCD);
+}
+
+.btn {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+@media (max-width: 1000px) {
+  .pb-lg{
+    display: none;
+  }
+}
+
+@media (min-width: 1001px) {
+  .pb-sm{
+    display: none;
+  }
+}
+
+/* --------------------- contact/footer --------------------- */
+
+#contact {
+  background-color: #d0e0d9;
+}
+
+.copyright{
+  font-size: 15px;
+}
+
+.con-logo{
+  color: #339094;
+}
+
+.con-logo:hover{
+  color: #15767b;
+}

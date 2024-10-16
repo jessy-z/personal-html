@@ -10,23 +10,578 @@
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- Nav Bar-->
+    <nav class="navbar navbar-expand-lg fixed-top py-1" id="mainNav">
+        <div class="container">
+            <a class="js-scroll-trigger nav-home px-5" href="#home">
+                Home
+            </a>
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto mx-5">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#bio">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#timeline">My Path</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- Home -->
-    <section id="home" class = "gradient-background">
+    <section id="home">
+
+        <div class="home-background">
+
+            <div class="container home-box1">
+                <div class="home-planet1">
+                    <div class="crater crater1"></div>
+                    <div class="crater crater2"></div>
+                    <div class="crater crater3"></div>
+                    <div class="crater crater4"></div>
+                    <div class="crater crater5"></div>
+                    <div class="shade"></div>
+                    <div class="greet text-center">
+                        <h1 class="text-white display-5 fw-bold">Hi! I'm Jessy</h1>
+                        <div class="desc mx-auto">
+                            <p class="text-white my-3">Data, Geospatial, and Environmental Scientist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="orbit">
+                    <div class="rocket"></div>
+                    <div class="window"></div>
+                </div>
+            </div>
+
+            <div class="container home-box2">
+                <div class="home-planet2">
+                    <div class="crater crater1"></div>
+                    <div class="crater crater2"></div>
+                    <div class="crater crater3"></div>
+                    <div class="shade"></div>
+                </div>
+                <div class="sat"></div>
+            </div>
+
+            <div class="container home-box3">
+                <div class="home-planet3">
+                    <div class="crater crater1"></div>
+                    <div class="crater crater2"></div>
+                    <div class="crater crater3"></div>
+                    <div class="crater crater4"></div>
+                    <div class="shade"></div>
+                </div>
+                <div class="orbit">
+                    <div class="sat"></div>
+                </div>
+            </div>
+
+            <div class="container home-box4">
+                <div class="home-hill1"></div>
+                <div class="home-hill2"></div>
+                <div class="home-hill3"></div>
+                <div class="home-flag1"></div>
+                <div class="home-flag2"></div>
+                <div class="home-sheep1">
+                    <div class="shadow"></div>
+                    <div class="legs"></div>
+                    <div class="body"></div>
+                    <div class="face"></div>
+                </div>
+            </div>
+
+            <div class="container home-box5">
+                <div class="home-hill1"></div>
+                <div class="home-hill2"></div>
+                <div class="home-flag1"></div>
+                <div class="home-sheep1">
+                    <div class="shadow"></div>
+                    <div class="legs"></div>
+                    <div class="body"></div>
+                    <div class="face"></div>
+                </div>
+                <div class="home-sheep2">
+                    <div class="shadow"></div>
+                    <div class="legs"></div>
+                    <div class="body"></div>
+                    <div class="face"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Bio -->
+    <section id="bio" class="bg-light">
+        <div class="container py-5">
+            <div class="pb-5 text-center">
+                <p class="header">About</p>
+                <hr>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-3 text-center p-4">
+                    <img class="profile_pic" src="./images/profile_pic_canva.png"
+                        alt="Jessy Zhang profile picture by CANVA" height="180">
+                </div>
+
+                <div class="col-lg-9 text-start text-md-left p-3">
+                    <p>I am a data scientist with backgrounds in Earth, environmental, and geospatial science. </p>
+
+                    <p>I have extensive experience working in the industry and academia at prestigious universities;
+                        my previous work spans multiple domains, including ecology, epidemiology, urban health under
+                        climate change,
+                        and urban emergency planning.
+                    </p>
+
+                    <p>My expertise with data lies in spatial analysis, visualization, database query,
+                        and management, and I am continuously advancing my knowledge in machine learning. </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+
+    <section id="timeline" class="py-5">
+        <div class="pb-5 text-center">
+            <p class="header">My Path</p>
+            <hr>
+        </div>
+
+        <div class="main-timeline-4 text-white p-3">
+
+            <!--GIS Certificate-->
+            <div class="d-flex">
+                <div class="timeline-4 left-4 d-flex justify-content-end">
+                    <div class="card gradient-custom border-0" style="width: 22rem;">
+                        <div class="card-body p-3">
+                            <h6 class="my-2 event-date-inside"><svg class="me-2" xmlns="http://www.w3.org/2000/svg"
+                                    height="35" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+                                    <path
+                                        d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+                                </svg>May 2017</h6>
+                            <p class="text-white mb-0">Geographic Information Systems Certificate</p>
+                            <p class="text-white text-opacity-50 mb-0">University of California, San Diego</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-date-left">
+                    <h6 class="mx-2 my-3"><svg class="mx-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                            fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                            <path
+                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+                            <path
+                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+                        </svg>May 2017</h6>
+                </div>
+            </div>
+
+            <!--GIS jobs-->
+            <div class="d-flex">
+                <div class="timeline-4 right-4">
+                    <div class="card gradient-custom-4 border-0" style="width: 22rem;">
+                        <div class="card-body p-3">
+                            <h6 class="my-2 event-date-inside"><svg class="me-2" xmlns="http://www.w3.org/2000/svg"
+                                    height="35" fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                                    <path
+                                        d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z" />
+                                </svg>Aug 2017</h6>
+                            <p class="text-white mb-0">Geospatial Data Analyst</p>
+                            <p class="text-white text-opacity-50 mb-0">University of California, San Diego</p>
+                            <p class="text-white mt-2 mb-0">Geospatial Data Analyst</p>
+                            <p class="text-white text-opacity-50 mb-0">Office of Emergency Services, County of San Diego
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-date-right">
+                    <h6 class="mx-2 my-3">Aug 2017<svg class="mx-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                            fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
+                            <path
+                                d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            <path
+                                d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z" />
+                        </svg> </h6>
+                </div>
+            </div>
+
+            <!--BS-->
+            <div class="d-flex">
+
+                <div class="timeline-4 left-4 d-flex justify-content-end">
+                    <div class="card gradient-custom border-0" style="width: 22rem;">
+                        <div class="card-body p-3">
+                            <h6 class="my-2 event-date-inside"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                                fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                                <path
+                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                            </svg>June 2019</h6>
+                            <p class="text-white mb-0">B.S. Earth Sciences</p>
+                            <p class="text-white text-opacity-50 mb-0">University of California, San Diego</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-date-left">
+                    <h6 class="mx-2 my-3"><svg class="mx-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                            fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                            <path
+                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                        </svg>June 2019</h6>
+                </div>
+            </div>
+
+
+            <!--MS-->
+            <div class="d-flex">
+
+                <div class="timeline-4 left-4 d-flex justify-content-end">
+                    <div class="card gradient-custom border-0" style="width: 22rem;">
+                        <div class="card-body p-3">
+                            <h6 class="my-2 event-date-inside"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                                fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                                <path
+                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                            </svg>May 2021</h6>
+                            <p class="text-white mb-0">M.S. Environmental and Environmental Health Engineering</p>
+                            <p class="text-white text-opacity-50 mb-0">New York University</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-date-left">
+                    <h6 class="mx-2 my-3"><svg class="mx-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                            fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                            <path
+                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                        </svg>May 2021</h6>
+                </div>
+            </div>
+
+
+            <!--DS job 1-->
+            <div class="d-flex">
+
+
+                <div class="timeline-4 right-4">
+                    <div class="card gradient-custom-4 border-0" style="width: 22rem;">
+                        <div class="card-body p-3">
+                            <h6 class="my-2 event-date-inside"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                                fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
+                                <path
+                                    d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                                <path
+                                    d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z" />
+                            </svg>Jul 2021</h6>
+                            <p class="text-white mb-0">Data Analyst</p>
+                            <p class="text-white text-opacity-50 mb-0">University of California, San Diego</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-date-right">
+                    <h6 class="mx-2 my-3">Jul 2021<svg class="mx-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                            fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
+                            <path
+                                d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            <path
+                                d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z" />
+                        </svg></h6>
+                </div>
+            </div>
+
+
+            <!--DS jobs 2-->
+            <div class="d-flex">
+
+                <div class="timeline-4 right-4">
+                    <div class="card gradient-custom-4 border-0" style="width: 22rem;">
+                        <div class="card-body p-3">
+                            <h6 class="my-2 event-date-inside"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                                fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
+                                <path
+                                    d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                                <path
+                                    d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z" />
+                            </svg>Sep 2021</h6>
+                            <p class="text-white mb-0">Data Scientist</p>
+                            <p class="text-white text-opacity-50 mb-0">University of Washington</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-date-right">
+                    <h6 class="mx-2 my-3">Sep 2021<svg class="mx-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                            fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
+                            <path
+                                d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                            <path
+                                d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z" />
+                        </svg></h6>
+                </div>
+            </div>
+
+
+            <!--DS Certificate-->
+            <div class="d-flex">
+
+                <div class="timeline-4 left-4 d-flex justify-content-end">
+                    <div class="card gradient-custom border-0" style="width: 22rem;">
+                        <div class="card-body p-3">
+                            <h6 class="event-date-inside"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                                fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+                                <path
+                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+                            </svg>May 2023</h6>
+                            <p class="text-white mb-0">Data Science Certificate</p>
+                            <p class="text-white text-opacity-50 mb-0">University of Washington</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-date-left">
+                    <h6 class="mx-2 my-3"><svg class="mx-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                            fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                            <path
+                                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+                            <path
+                                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+                        </svg>May 2023</h6>
+                </div>
+            </div>
+
+
+            <!--End -->
+            <div class="d-flex">
+
+                <div class="timeline-4 right-4 end-box">
+                    <div class="card gradient-custom-4 border-0" style="width: 22rem;">
+                        <div class="card-body p-3">
+                            <h6 class="event-date-inside"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                                fill="currentColor" class="bi bi-joystick" viewBox="0 0 16 16">
+                                <path
+                                    d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2" />
+                                <path
+                                    d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23" />
+                            </svg>May 2024</h6>
+                            <p class="text-white mb-0">Onto the next adventure!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-date-right">
+                    <h6 class="mx-2 my-3">May 2024<svg class="mx-2" xmlns="http://www.w3.org/2000/svg" height="35"
+                            fill="currentColor" class="bi bi-joystick" viewBox="0 0 16 16">
+                            <path
+                                d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2" />
+                            <path
+                                d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23" />
+                        </svg></h6>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- Publications -->
+    <section id="publications" class="bg-light">
         <div class="px-4 py-5 text-center">
-            <h1 class="text-white display-5 fw-bold">Hi! I'm Jessy  <img class = "profile" src=".//images/profile_pic.jpeg" alt="" width="72"
-                height="57"></h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="text-white lead mb-4">Data, Geospatial, and Environmental Scientist</p>
+            <p class="header">Publications</p>
+            <hr>
+        </div>
+        <div class="container d-flex flex-column pb-5">
+            <div class="pb-lg postcard align-self-center mb-0">
+                <div class="d-flex gradient-custom-postcard">
+
+                    <img class="postcard_img" src="./images/cover.png" alt="Psychoneuroendocrinology journal cover">
+
+                    <div class="mx-3 my-3">
+                        <h5 class="text-dark text-opacity-75">Sex-specific associations between placental
+                            corticotropin releasing hormone and problem behaviors in childhood</h5>
+
+                        <div class="publication-date text-dark text-opacity-75 my-3">
+                            <p class="my-1 p-sub">
+                                <svg class="pe-2" xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor"
+                                    class="bi bi-journal-bookmark-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z" />
+                                    <path
+                                        d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2" />
+                                    <path
+                                        d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z" />
+                                </svg>Psychoneuroendocrinology, Volume 163
+                            </p>
+
+                            <p class="my-1 p-sub">
+                                <svg class="pe-2" xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor"
+                                    class="bi bi-calendar3" viewBox="0 0 16 16">
+                                    <path
+                                        d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z" />
+                                    <path
+                                        d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                                </svg>May 2024
+                            </p>
+                        </div>
+
+                        <div>
+                            <a class="btn btn-outline-light btn-sm"
+                                href="https://www.sciencedirect.com/science/article/pii/S0306453024000386?via%3Dihub"
+                                role="button">Read</a>
+                            <a class="btn btn-outline-light btn-sm"
+                                href="https://www.sciencedirect.com/journal/psychoneuroendocrinology/about/insights"
+                                role="button">About the Journal</a>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="break"></div>
+
+            <div class="pb-sm card align-self-center" style="width: 18rem;">
+                <img class="card-img-top" src="images/cover_sm.jpg" alt="Psychoneuroendocrinology journal cover"
+                    height="180px">
+                <div class="card-body gradient-custom-postcard">
+                    <h5 class="text-dark text-opacity-75">Sex-specific associations between placental
+                        corticotropin releasing hormone and problem behaviors in childhood</h5>
+
+                    <div class="publication-date text-dark text-opacity-75 my-3">
+                        <p class="my-1 p-sub">
+                            <svg class="pe-2" xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor"
+                                class="bi bi-journal-bookmark-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z" />
+                                <path
+                                    d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2" />
+                                <path
+                                    d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z" />
+                            </svg>Psychoneuroendocrinology, Volume 163
+                        </p>
+
+                        <p class="my-1 p-sub">
+                            <svg class="pe-2" xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor"
+                                class="bi bi-calendar3" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z" />
+                                <path
+                                    d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                            </svg>May 2024
+                        </p>
+                    </div>
+
+                    <div>
+                        <a class="btn btn-outline-light btn-sm"
+                            href="https://www.sciencedirect.com/science/article/pii/S0306453024000386?via%3Dihub"
+                            role="button">Read</a>
+                        <a class="btn btn-outline-light btn-sm"
+                            href="https://www.sciencedirect.com/journal/psychoneuroendocrinology/about/insights"
+                            role="button">About the Journal</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+
+    <!-- contact/footer -->
+    <section id="contact">
+        <div class="px-4 py-5 text-center">
+            <p class="header">Contact</p>
+            <hr>
+        </div>
+
+        <ul class="list-inline d-flex justify-content-center pb-5 mb-0">
+            <li class="list-inline-item mx-3">
+                <a class="con-logo" href="https://www.linkedin.com/in/jessyyhz/">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="35" fill="currentColor" class="bi bi-linkedin"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                    </svg>
+                </a>
+            </li>
+
+            <li class="list-inline-item mx-3">
+                <a class="con-logo" href="https://github.com/jessy-z">
+                    <svg class="pb-1" xmlns="http://www.w3.org/2000/svg" height="42" fill="currentColor"
+                        class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                    </svg>
+                </a>
+            </li>
+
+            <li class="list-inline-item mx-3">
+                <a class="con-logo" href="mailto:jessy.yhzhang@gmail.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="35" fill="currentColor"
+                        class="bi bi-envelope-paper-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75zM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765M16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516zm-8 3.3 5.693-3.162L0 6.873v6.5Z" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+        <div class="footer d-flex justify-content-center">
+            <p class="copyright">Copyright © Yuhong Zhang 2024</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
 
