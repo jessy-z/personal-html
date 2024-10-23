@@ -890,13 +890,9 @@
 }
 
 @media (max-width: 1500px) {
-  .home-box5 {
-    left: 16rem;
-  }
-
-  .home-box2 {
-    left: 40%;
-  }
+ #home{
+  transform: scale(0.7);
+ }
 }
 
 /* --------------------- General --------------------- */
