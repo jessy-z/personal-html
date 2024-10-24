@@ -30,6 +30,14 @@
   justify-content: end; 
 }
 
+@media (max-width: 1000px) {
+  #mainNav{
+    width: 100vw;
+    overflow: hidden;
+    white-space: wrap;
+  }
+}
+
 
 /* --------------------- home --------------------- */
 .home-background{
@@ -889,16 +897,11 @@
   }
 
   .home-box1 {
-    top: 50%;
-  }
-
-  .home-box3 {
-    top: -70%;
+    top: 35%
   }
 
   #home{
     width: 100vw;
-    overflow: auto;
   }
 }
 
