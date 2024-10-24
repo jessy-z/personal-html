@@ -30,6 +30,14 @@
   justify-content: end; 
 }
 
+@media (max-width: 1000px) {
+  #mainNav{
+    width: 100vw;
+    overflow: hidden;
+    white-space: wrap;
+  }
+}
+
 
 /* --------------------- home --------------------- */
 .home-background{
@@ -871,9 +879,11 @@
   left: 47%;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1050px) {
   .home-box4{
-    display: none;
+    transform: scale(0.5);
+    left: -2%;
+    top: -5%;
   }
 
   .home-box2{
@@ -885,11 +895,27 @@
   }
 
   .home-background{
-    height: 850px;
+    height: 875px;
+  }
+
+  .home-box3 {
+    transform: scale(0.6);
+    left: -0%
+  }
+
+  .home-box1 {
+    transform: scale(0.5);
+    top: 20%;
+    left: -14%;
+  }
+
+  #home{
+    width: 100vw;
   }
 }
 
-@media (max-width: 1650px) {
+
+@media (min-width: 1051px) and (max-width: 1650px) {
   .home-background{
     height: 42rem;
   }
@@ -973,6 +999,12 @@ p {
   color:#339094;
   font-size: 20px;
   font-family: "Barlow Condensed", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  #bio{
+    width: 100vw;
+  }
 }
 
 /* --------------------- My Path ---------------------*/
@@ -1093,6 +1125,10 @@ h6{
   .event-date-inside{
     display: none;
   }
+
+  #timeline{
+      width: 100vw;
+    }
 }
 
 .gradient-custom {
@@ -1244,6 +1280,10 @@ h5{
   .pb-sm{
     display: none;
   }
+
+  #publications{
+      width: 100vw;
+    }
 }
 
 /* --------------------- contact/footer --------------------- */
@@ -1262,4 +1302,10 @@ h5{
 
 .con-logo:hover{
   color: #15767b;
+}
+
+@media (max-width: 1000px) {
+  #contact{
+    width: 100vw;
+  }
 }
