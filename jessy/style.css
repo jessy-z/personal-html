@@ -126,8 +126,8 @@
   width: 26rem;
 }
 
-.desc {
-  font-size: 1.1rem;
+.desc-text {
+  font-size: 28px;
   font-family: "Barlow Condensed", sans-serif;
 }
 
@@ -625,7 +625,7 @@
   padding: 0 0 0 0;
   margin: auto;
   top: -28%;
-  left: 23rem;
+  left: 21rem;
 }
 
 .home-box5 .home-hill1{
@@ -889,6 +889,44 @@
   }
 }
 
+@media (max-width: 1650px) {
+  .home-background{
+    height: 42rem;
+  }
+ 
+  .home-box1{
+    top: 15%;
+    transform: scale(0.7);
+ }
+
+ .home-box2{
+    left: 30%;   
+    transform: scale(0.7);
+ }
+
+ .home-box3{
+    top: -60%;
+    transform: scale(0.7);
+ }
+
+ .home-box4{
+    top: -28%;
+    left: -20%;
+    transform: scale(0.7);
+ }
+
+ .home-box5{
+    top: -58%;
+    left: 21rem;
+    transform: scale(0.7);
+ }
+
+ .desc-text {
+    font-size: 28px;
+ }
+
+}
+
 /* --------------------- General --------------------- */
 h1 {
   font-family: "Bad Script", cursive;
@@ -931,6 +969,11 @@ p {
   border-radius: 20% 20% 20% 20%;
 }
 
+.umbrella {
+  color:#339094;
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
 
 /* --------------------- My Path ---------------------*/
 #timeline {
