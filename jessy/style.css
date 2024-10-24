@@ -887,7 +887,21 @@
   .home-background{
     height: 850px;
   }
+
+  .home-box1 {
+    top: 50%;
+  }
+
+  .home-box3 {
+    top: -70%;
+  }
+
+  #home{
+    width: 100vw;
+    overflow: auto;
+  }
 }
+
 
 @media (max-width: 1650px) {
   .home-background{
@@ -973,6 +987,12 @@ p {
   color:#339094;
   font-size: 20px;
   font-family: "Barlow Condensed", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  #bio{
+    width: 100vw;
+  }
 }
 
 /* --------------------- My Path ---------------------*/
@@ -1093,6 +1113,10 @@ h6{
   .event-date-inside{
     display: none;
   }
+
+  #timeline{
+      width: 100vw;
+    }
 }
 
 .gradient-custom {
@@ -1244,6 +1268,10 @@ h5{
   .pb-sm{
     display: none;
   }
+
+  #publications{
+      width: 100vw;
+    }
 }
 
 /* --------------------- contact/footer --------------------- */
@@ -1262,4 +1290,10 @@ h5{
 
 .con-logo:hover{
   color: #15767b;
+}
+
+@media (max-width: 1000px) {
+  #contact{
+    width: 100vw;
+  }
 }
