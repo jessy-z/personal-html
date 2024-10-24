@@ -915,7 +915,7 @@
 }
 
 
-@media (min-width: 1051px) and (max-width: 1650px) {
+@media (min-width: 1051px) and (max-width: 2500px) {
   .home-background{
     height: 42rem;
   }
@@ -982,6 +982,12 @@ p {
   font-weight: 300;
 }
 
+@media (min-width: 320px) and (max-width: 1050px) {
+  p {
+    font-size: 13px;
+  }
+}
+
 
 /* --------------------- About/Bio --------------------- */
 
@@ -1001,7 +1007,7 @@ p {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1051px) {
   #bio{
     width: 100vw;
   }
@@ -1121,16 +1127,6 @@ h6{
   color: white;
 }
 
-@media (min-width: 1001px) {
-  .event-date-inside{
-    display: none;
-  }
-
-  #timeline{
-      width: 100vw;
-    }
-}
-
 .gradient-custom {
   /* fallback for old browsers */
   background: #508D4E;
@@ -1153,8 +1149,20 @@ h6{
   background: linear-gradient(to left, #145b7b, #067c83)
 }
 
-/* Media queries - Responsive timeline on screens less than 100px wide */
-@media screen and (max-width: 1000px) {
+/* Media queries - Responsive timeline on small screens */
+@media screen and (max-width: 1051px) {
+
+  .main-timeline-4 .card{
+    width: 190px !important;
+  }
+
+  .event-date-inside{
+    display: none;
+  }
+
+  #timeline{
+      width: 100vw;
+    }
 
   /*Center Timeline*/
   .main-timeline-4 {
@@ -1189,7 +1197,7 @@ h6{
     border-width: 10px 10px 10px 0;
     border-color: transparent #447c42 transparent transparent;
     justify-self: start;
-    left: 60px !important;
+    left: 20px !important;
   }
 
   .right-4::before {
@@ -1200,7 +1208,7 @@ h6{
   /* Make sure all circles are at the same spot */
   .left-4::after,
   .right-4::after {
-    left: 2px;
+    left: 6px;
   }
 
   /* Make all right containers behave like the left ones */
@@ -1208,6 +1216,7 @@ h6{
     left: 0%;
   }
 }
+
 /* --------------------- publications --------------------- */
 
 #publications {
