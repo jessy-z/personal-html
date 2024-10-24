@@ -880,10 +880,23 @@
 }
 
 @media (min-width: 320px) and (max-width: 1050px) {
+  .home-box1 {
+    transform: scale(0.5);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .home-box3 {
+    transform: scale(0.6);
+    left: -0%;
+    top: -57%;
+  }
+
   .home-box4{
     transform: scale(0.5);
-    left: -2%;
-    top: -5%;
+    left: 10%;
+    top: -17%;
   }
 
   .home-box2{
@@ -895,18 +908,7 @@
   }
 
   .home-background{
-    height: 875px;
-  }
-
-  .home-box3 {
-    transform: scale(0.6);
-    left: -0%
-  }
-
-  .home-box1 {
-    transform: scale(0.5);
-    top: 20%;
-    left: -14%;
+    height: 600px;
   }
 
   #home{
@@ -915,7 +917,7 @@
 }
 
 
-@media (min-width: 1051px) and (max-width: 1650px) {
+@media (min-width: 1051px) and (max-width: 1900px) {
   .home-background{
     height: 42rem;
   }
@@ -982,6 +984,12 @@ p {
   font-weight: 300;
 }
 
+@media (min-width: 320px) and (max-width: 1050px) {
+  p {
+    font-size: 13px;
+  }
+}
+
 
 /* --------------------- About/Bio --------------------- */
 
@@ -1001,7 +1009,7 @@ p {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1051px) {
   #bio{
     width: 100vw;
   }
@@ -1121,16 +1129,6 @@ h6{
   color: white;
 }
 
-@media (min-width: 1001px) {
-  .event-date-inside{
-    display: none;
-  }
-
-  #timeline{
-      width: 100vw;
-    }
-}
-
 .gradient-custom {
   /* fallback for old browsers */
   background: #508D4E;
@@ -1153,8 +1151,20 @@ h6{
   background: linear-gradient(to left, #145b7b, #067c83)
 }
 
-/* Media queries - Responsive timeline on screens less than 100px wide */
-@media screen and (max-width: 1000px) {
+/* Media queries - Responsive timeline on small screens */
+@media screen and (max-width: 1051px) {
+
+  .main-timeline-4 .card{
+    width: 190px !important;
+  }
+
+  .event-date-inside{
+    display: none;
+  }
+
+  #timeline{
+      width: 100vw;
+    }
 
   /*Center Timeline*/
   .main-timeline-4 {
@@ -1200,7 +1210,7 @@ h6{
   /* Make sure all circles are at the same spot */
   .left-4::after,
   .right-4::after {
-    left: 2px;
+    left: 6px;
   }
 
   /* Make all right containers behave like the left ones */
@@ -1208,6 +1218,7 @@ h6{
     left: 0%;
   }
 }
+
 /* --------------------- publications --------------------- */
 
 #publications {
