@@ -879,9 +879,11 @@
   left: 47%;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 1050px) {
   .home-box4{
-    display: none;
+    transform: scale(0.5);
+    left: -2%;
+    top: -5%;
   }
 
   .home-box2{
@@ -893,11 +895,18 @@
   }
 
   .home-background{
-    height: 850px;
+    height: 875px;
+  }
+
+  .home-box3 {
+    transform: scale(0.6);
+    left: -0%
   }
 
   .home-box1 {
-    top: 35%
+    transform: scale(0.5);
+    top: 20%;
+    left: -14%;
   }
 
   #home{
@@ -906,7 +915,7 @@
 }
 
 
-@media (max-width: 1650px) {
+@media (min-width: 1051px) and (max-width: 1650px) {
   .home-background{
     height: 42rem;
   }
